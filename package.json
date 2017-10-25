@@ -1,0 +1,9 @@
+{
+  "name": "royaljs-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "reveal": "^0.0.4"
+  }
+}

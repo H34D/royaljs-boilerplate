@@ -1,0 +1,79 @@
+<html>
+<head>
+    <link rel="stylesheet" href="node_modules/reveal/index.css">
+    <link rel="stylesheet" href="node_modules/reveal/theme/default.css" id="theme">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico">
+
+    <style>
+        .reveal {
+            font-size: 30px !important;
+        }
+
+        .slide-background {
+            opacity: 0.2 !important;
+        }
+
+        .js-icon {
+            width: 80px;
+            position: absolute;
+            top: 30px;
+            left: 30px;
+        }
+
+        .js-text {
+            font-family: 'Pacifico', cursive !important;
+            position: absolute;
+            top: 50px;
+            left: 113px;
+        }
+    </style>
+
+</head>
+<body>
+
+<div class="reveal">
+
+    <div><img src="images/js.png" class="js-icon"/>
+        <p class="js-text">#RoyalJS</p>
+    </div>
+
+    <div class="slides">
+
+        <section data-background-image="images/braunschweig.jpg">
+
+            <h3>#RoyalJS Boilerplate</h3>
+
+            <hr/>
+
+            <p>lorem ipsum dolor</p>
+
+        </section>
+
+        <section data-background-image="images/braunschweig.jpg">
+
+            <h3>Samples</h3>
+
+            <hr/>
+
+            <p class="fragment grow">grow</p>
+            <p class="fragment shrink">shrink</p>
+            <p class="fragment fade-out">fade-out</p>
+            <p class="fragment fade-up">fade-up (also down, left and right!)</p>
+            <p class="fragment current-visible">visible only once</p>
+            <p class="fragment highlight-current-blue">blue only once</p>
+            <p class="fragment highlight-red">highlight-red</p>
+            <p class="fragment highlight-green">highlight-green</p>
+            <p class="fragment highlight-blue">highlight-blue</p>
+
+        </section>
+
+    </div>
+</div>
+
+<script src="node_modules/reveal/index.js"></script>
+<script>
+    Reveal.initialize();
+</script>
+
+</body>
+</html>
